@@ -16,8 +16,7 @@ Feel free to sumibit PR to help:
 - Improve or add new sections
 - Translation
 
-- [Backend Interview Cliche Primer](#backend-interview-cliche-primer)
-  - [Contributions](#contributions)
+## Table of Content
   - [Network](#network)
     - [OSI](#osi)
     - [http vs http2](#http-vs-http2)
@@ -33,7 +32,6 @@ Feel free to sumibit PR to help:
     - [CAP theorem](#cap-theorem)
   - [Data Structure](#data-structure)
     - [Implement a HashMap](#implement-a-hashmap)
-
 
 ## Network
 ### OSI
