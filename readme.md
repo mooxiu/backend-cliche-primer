@@ -16,13 +16,24 @@ Feel free to sumibit PR to help:
 - Improve or add new sections
 - Translation
 
-## Index
-- [Network](#network)
-- [Programming Language](#programming-language)
-- [Concurrency](#concurrency)
-- [OOP](#oop)
-- [Distributed System](#distributed-system)
-- [Data Structure](#data-structure)
+- [Backend Interview Cliche Primer](#backend-interview-cliche-primer)
+  - [Contributions](#contributions)
+  - [Network](#network)
+    - [OSI](#osi)
+    - [http vs http2](#http-vs-http2)
+    - [TCP vs UDP](#tcp-vs-udp)
+    - [Layer 4 Load Balancer vs Layer 7 Load Balancer](#layer-4-load-balancer-vs-layer-7-load-balancer)
+  - [Programming Language](#programming-language)
+    - [Garbage Collection](#garbage-collection)
+  - [Concurrency](#concurrency)
+  - [OOP](#oop)
+    - [High Cohension, Low Coupling](#high-cohension-low-coupling)
+    - [IOC:](#ioc)
+  - [Distributed System](#distributed-system)
+    - [CAP theorem](#cap-theorem)
+  - [Data Structure](#data-structure)
+    - [Implement a HashMap](#implement-a-hashmap)
+
 
 ## Network
 ### OSI
