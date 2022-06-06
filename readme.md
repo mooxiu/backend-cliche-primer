@@ -1,11 +1,11 @@
 # Backend Interview Cliche Primer
 
 > 小生を面接、首実検の後、不採用という恥辱はご容赦願いたし
-> --- 山崎豊子『不毛地帯』
+> (山崎豊子『不毛地帯』)
 
 After I failed in some interviews (of course sometimes success), I found that I usually did not fail in coding, or in system design part. I failed in some backend cliche (while you can solve coding and system design problems by thinking, you would be freeze if someone ask you about a fancy concpet that you have never heard about). To not fall over in the same place twice, I decided to summarize some knowledges that might be helpful to know.
 
-To make it as simple as possible, this repository should contain only **Backend** part. And if there are some good answers, I will only do the aggregation job ---- that is to only adding link to the answer.
+To make it as simple as possible, this repository should contain only **Backend** part. And if there are some good answers, I will only do the aggregation job -- that is to only adding link to the answer.
 
 The existence of this repository is because of [system-design-primer](https://github.com/donnemartin/system-design-primer).
 
@@ -37,7 +37,11 @@ Feel free to sumibit PR to help:
 
 ## OOP
 ### High Cohension, Low Coupling
-### ROC: Reverse of Control
+- [StackOverflow: what does low in coupling and high in cohension mean](https://stackoverflow.com/questions/14000762/what-does-low-in-coupling-and-high-in-cohesion-mean)
+
+### IOC: 
+IOC is short for *Inverse Of Control*.
+- [Wikipedia: Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control)
 
 ## Distributed System
 ### CAP theorem
