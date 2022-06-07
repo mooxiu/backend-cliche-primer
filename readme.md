@@ -1,4 +1,4 @@
-# Backend Interview Cliche Primer
+# Backend Interview Cliché Primer
 
 > 小生を面接、首実検の後、不採用という恥辱はご容赦願いたし
 > (山崎豊子『不毛地帯』)
