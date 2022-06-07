@@ -7,7 +7,7 @@ According to my tech interview experiences, the coding part and system design pa
 
 To make it as simple as possible, this repository should contain only **Backend** part. As there are already a lot of good answers, articles, videos about those questions, I will only do the aggregation job.
 
-The existence of this repository is an imitation of [system-design-primer](https://github.com/donnemartin/system-design-primer).
+This repository is an imitation of [system-design-primer](https://github.com/donnemartin/system-design-primer). Salute to [system-design-primer](https://github.com/donnemartin/system-design-primer).
 
 ## Contributions
 Feel free to sumibit PR to help:
@@ -18,10 +18,12 @@ Feel free to sumibit PR to help:
 
 ## Table of Content
   - [Network](#network)
-    - [OSI](#osi)
-    - [http vs http2](#http-vs-http2)
-    - [TCP vs UDP](#tcp-vs-udp)
-    - [Layer 4 Load Balancer vs Layer 7 Load Balancer](#layer-4-load-balancer-vs-layer-7-load-balancer)
+      - [OSI](#osi)
+      - [http vs http2](#http-vs-http2)
+      - [TCP vs UDP](#tcp-vs-udp)
+      - [Layer 4 Load Balancer vs Layer 7 Load Balancer](#layer-4-load-balancer-vs-layer-7-load-balancer)
+      - [SNI, ESNI](#sni-esni)
+      - [Describe you input an URL until you see the webpage.](#describe-you-input-an-url-until-you-see-the-webpage)
   - [Programming Language](#programming-language)
     - [Garbage Collection](#garbage-collection)
   - [Concurrency](#concurrency)
@@ -34,15 +36,28 @@ Feel free to sumibit PR to help:
     - [Implement a HashMap](#implement-a-hashmap)
 
 ## Network
-### OSI
-### http vs http2
-### TCP vs UDP
-### Layer 4 Load Balancer vs Layer 7 Load Balancer
+
+---
+
+#### OSI
+#### http vs http2
+#### TCP vs UDP
+#### Layer 4 Load Balancer vs Layer 7 Load Balancer
+
+---
+
+#### SNI, ESNI
+#### Describe you input an URL until you see the webpage.
+
+---
 
 ## Programming Language
+
 ### Garbage Collection
 
 ## Concurrency
+
+---
 
 ## OOP
 ### High Cohension, Low Coupling
@@ -52,8 +67,11 @@ Feel free to sumibit PR to help:
 IOC is short for *Inverse Of Control*.
 - [Wikipedia: Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control)
 
+---
+
 ## Distributed System
 ### CAP theorem
 
+---
 ## Data Structure
 ### Implement a HashMap
