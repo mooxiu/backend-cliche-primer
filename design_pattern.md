@@ -20,7 +20,16 @@ Easy to scale—FTGO ran multiple instances of the application behind a load bal
 
 ![monolithic-hell](./monolithic-hell.png)
 
-- 
+- Development is slow -> Complexity
+- Path from commit to deploy is long
+- Scaling is difficult
+- Delivering a reliable monolith is challenging
+- Locked into increasingly obsolete technology stack
+
+#### SOA vs microservice
+![Comparison of SOA and microservice](./SOA_microservice.png)
+
+My note: SOA sharing data, so it use synchronous protocol to communicate to share data, and use a common database. While microservice each one of them has a database, it's a real distributed system.
 
 
 
