@@ -1,9 +1,44 @@
 # Design and Architecture (Cliche of cliche)
 
-### High Cohension, Low Coupling
-- [StackOverflow: what does low in coupling and high in cohension mean](https://stackoverflow.com/questions/14000762/what-does-low-in-coupling-and-high-in-cohesion-mean)
+## Architecture
 
-### IOC: 
+### Monolithe vs MicroService
+
+#### Monolithe
+
+##### Good: 
+
+![monolithic app](./typical-monolithe-application.png)
+
+- Simple to develop—IDEs and other developer tools are focused on building a single application.
+- Easy to make radical changes to the application—You can change the code and the database schema, build, and deploy.
+- Straightforward to test—The developers wrote end-to-end tests that launched the application, invoked the REST API, and tested the UI with Selenium.
+- Straightforward to deploy—All a developer had to do was copy the WAR file to a server that had Tomcat installed.
+Easy to scale—FTGO ran multiple instances of the application behind a load balancer.
+
+##### Bad: Monolithic hell
+
+![monolithic-hell](./monolithic-hell.png)
+
+- 
+
+
+
+ref: book: Microservices Patterns By Chris Richardson
+
+
+## Development
+
+### What is `High Cohension, Low Coupling`?
+
+What is `High Cohension`?
+    
+What is `Low Couping`?
+
+ref: [StackOverflow: what does low in coupling and high in cohension mean](https://stackoverflow.com/questions/14000762/what-does-low-in-coupling-and-high-in-cohesion-mean)
+
+### What is IOC?
+
 IOC is short for *Inverse Of Control*.
 
 - [Wikipedia: Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control)
