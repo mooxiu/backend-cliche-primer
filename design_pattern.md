@@ -18,7 +18,10 @@ Short for "keep it simple, stupid"
 
 ### CAP theorem:
 C: Consistency -> Every node sees the same data even when concurrent updates occur
+
 A: Availability -> All requests receive responses on whether it success or not
+
 P: Partition Tolerance -> The system will keep operating even if there's a partition in communication between 2 different nodes
+
 
 In real practice, partition is always going to happen, thus P is a must to satisfy requirement.
