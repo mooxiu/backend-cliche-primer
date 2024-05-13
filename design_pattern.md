@@ -12,3 +12,13 @@ Notice that **Dependency Injection** and **IOC** are closely related conceptions
 - [Martin Fowler: Inversion of Control Containers and the Dependency Injection pattern](https://martinfowler.com/articles/injection.html) 
 
 For Golang developer like me, IOC seems to be a little bit heavy. However, there are also some IOC frameworks(dependency injection frameworks) like [google/wire](https://github.com/google/wire) and [uber-go/fx](https://github.com/uber-go/fx).
+
+### KISS:
+Short for "keep it simple, stupid"
+
+### CAP theorem:
+C: Consistency -> Every node sees the same data even when concurrent updates occur
+A: Availability -> All requests receive responses on whether it success or not
+P: Partition Tolerance -> The system will keep operating even if there's a partition in communication between 2 different nodes
+
+In real practice, partition is always going to happen, thus P is a must to satisfy requirement.
