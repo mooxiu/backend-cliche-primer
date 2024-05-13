@@ -25,3 +25,5 @@ P: Partition Tolerance -> The system will keep operating even if there's a parti
 
 
 In real practice, partition is always going to happen, thus P is a must to satisfy requirement.
+
+### 
